@@ -26,4 +26,4 @@ hT = np.maximum(ST - K, 0)  # payoff at maturity
 C0 = math.exp(-r * T) * np.mean(hT)  # Monte Carlo estimator
 
 # Result Output
-print('Value of the European call option %5.3f.' % 
+print('Value of the European call option %5.3f.' % C0)
